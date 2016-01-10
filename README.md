@@ -46,3 +46,4 @@ Future solutions / changes considered (but not implemented)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Fix known issues
 2. DB caching for multiple clients and instances can be used, as fibonacci sequence is deterministic. Db/network latency to retrieve previously genrted numbers should be considered over compute bottlenecks.
+3. Backend web.py web hosting may not scale well for enterprise solutions, so it may need to be replaced. (The actual fibonacci generation algorithm seems optimized though)
